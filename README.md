@@ -10,7 +10,7 @@ embedded communication, binary protocols, sensor streaming, and real-time firmwa
 
 ---
 
-## ✅ Hardware & Environment
+##Hardware & Environment
 **Tested Board**
 - STM32F446RE (Nucleo-F446RE)  
   *(Works on any STM32 with DMA + Idle Line support)*
@@ -22,7 +22,7 @@ embedded communication, binary protocols, sensor streaming, and real-time firmwa
 
 ---
 
-## ✅ Features Implemented
+##  Features Implemented
 - **UART RX via DMA (circular mode)** – continuous reception with zero CPU load  
 - **Idle Line Detection** – identifies end-of-frame for variable-length packets  
 - **Ring Buffer (Head/Tail)** – lock-free, overrun detection, safe byte extraction  
@@ -31,7 +31,7 @@ embedded communication, binary protocols, sensor streaming, and real-time firmwa
 
 ---
 
-## ✅ Project Structure
+##  Project Structure
 
 Core/
 ├── Inc/
@@ -47,12 +47,8 @@ Core/
 Drivers/
 └── STM32 HAL + CMSIS
 
-yaml
-코드 복사
 
----
-
-## ✅ How to Build & Run
+##  How to Build & Run
 
 ### 1. CubeMX Settings
 **UART**
