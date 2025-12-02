@@ -69,7 +69,7 @@ Drivers/
 
 ##  Initialization Example
 
-```c
+
 UART_DMA_Init(&huart2, dma_rx_buffer, DMA_BUF_SIZE);
 RingBuffer_Init(&uart_rb, rb_data, RB_SIZE);
 Main Loop
